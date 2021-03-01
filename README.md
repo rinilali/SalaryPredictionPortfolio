@@ -63,8 +63,8 @@ Miles_From_Metropolis - Distance from the Metropolitan city.
 4) We have merged the training data set having the target features (train_features.csv) and salaries (train_salaries.csv) in one file.
 5) Cleaning the dataset
 
-                      1) Checked for duplicates. There were no duplicates present in the data.               
-                      2) Training dataset does not have null values				        
-                      3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
-                         I have replaced the rows with the mean salary for the respective categorical and numerical features.
+                   1) Checked for duplicates. There were no duplicates present in the data.               
+                   2) Training dataset does not have null values				        
+                   3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
+                      I have replaced the rows with the mean salary for the respective categorical and numerical features.
 6) Stored the clean data in the csv file Train_Data.
