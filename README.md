@@ -92,9 +92,32 @@ Steps :-
    ![image](https://user-images.githubusercontent.com/69466709/109588402-ab45cb00-7ad6-11eb-9743-ab6a90df4fec.png)
 
    ![image](https://user-images.githubusercontent.com/69466709/109588848-62424680-7ad7-11eb-92a3-7a4931592aac.png)
-
    
-5) 
+   We found outthere were 7117 observations which were above the upper extremes and considered as outliers.
+   After further investigation, we found out that the observations were valid based on the higher level of education, 
+   higher job types and were assosciated with the Finance and oil industry. They were not removed from the Dataset.
+
+5) Using the ANOVA method, I found out the correlation between various groups of categorical features and the target
+   feature salary. Salary is correlated with jobType, industry, degree and major categories. 
+   The F-value is large and the p-value close to zero which indicates strong correlation between these groups.
+
+6) Summary of Categorical, Numeric and Target Features :-
+
+   Categorical Variables :- jobType, industry, major, degree
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109591358-5f495500-7adb-11eb-857f-2913827af117.png)
+   
+   Numerical Features :- yearsExperience and MilesFromMetropolis
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109591418-74be7f00-7adb-11eb-83ea-14ece125d703.png)
+   
+   Target Feature :- Salary
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109591451-84d65e80-7adb-11eb-8783-da8a4b85e5b0.png)
+   
+7) 
+
+
 
 
    ![image](https://user-images.githubusercontent.com/69466709/109589126-e0065200-7ad7-11eb-9645-dd0952645489.png)
