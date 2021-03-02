@@ -176,6 +176,7 @@ I have created a simple baseline model using the average salary and calculating 
 of two feature variables ***Job Type*** and ***Industry***.
 
 Mean squared error(MSE) with Feature ***JobType*** -  ***963.2***
+
 Mean squared error(MSE) with Feature ***Industry*** - ***1367.119***
 
 We need to develop models in order to reduce the MSE error less than 360 and make accurate predictions.
@@ -240,8 +241,11 @@ In order to devlop models, train and test the data, we need to create features r
    The cross validation score used to evaluate the models.
    
        The cross validation score for Linear Model: 0.7435
+       
        The cross validation score for Random Forest Model: 0.7515
+       
        The cross validation score for Gradient Boost Model: 0.7622
+       
        The cross validation score for Polynomial Regression Model: 0.7638
 
 ## Deploy Models
@@ -254,23 +258,3 @@ Obtained predictions using the model and stored the file in csv format.
    This shows the importance of features in obtaining the prediction using the model
    
    ![image](https://user-images.githubusercontent.com/69466709/109696628-41bbd000-7b5b-11eb-951b-8a3402a45bea.png)
-
-
-   
-       
-       
-       
-    
-
-
-
-
-
-
-
-   
-   
-
-
-
-
