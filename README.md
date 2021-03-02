@@ -13,31 +13,39 @@ Python 3 (Jupyter Notebook)
 ## Libraries Used 
 
 pandas     - For data structures, manipulation and analyzing Data
+
 sklearn    - For classification, regression, Machine learning
+
 matplotlib - For analyzing and plotting numerical data
+
 numpy      - For multidimensional matrices and arrays, advanced mathematical functions
+
 seaborn    - For visualization
+
 scipy      - For Linear Algebra
 
 ## Directories
 
 Data   - contains the data set used in the project
+
 Code   - contains the jupyter notebook cantaing the entire code
+
 Images - contains images of the various graphs plotted for analyzing the data
+
 Results- contains the results obtained
 
 ## Data
 
-train_features.csv contains metadata for an individual job posting.
+**train_features.csv** contains metadata for an individual job posting.
 The "jobId" column represents a unique identifier for the job posting.
 
-train_salaries.csv contains salaries for job postings. 
+**train_salaries.csv** contains salaries for job postings. 
 Each row associates a "jobId" with a "salary".
 
-test_features.csv contains metadata for an individual job posting.
+**test_features.csv** contains metadata for an individual job posting.
 We have to predict the salaries for the job postings provided in the csv file test_features.
 
-Categorical and Numerical Data
+**Categorical and Numerical Data**
 
 Job Type - contains 8 different categories
            CEO, CFO, CTO, Janitor, Junior, Manager, Senior, Vice President
@@ -62,9 +70,8 @@ Miles_From_Metropolis - Distance from the Metropolitan city.
 3) Describe the data and understand the statistics
 4) We have merged the training data set having the target features (train_features.csv) and salaries (train_salaries.csv) in one file.
 5) Cleaning the dataset
-
-                   1) Checked for duplicates. There were no duplicates present in the data.               
-                   2) Training dataset does not have null values				        
-                   3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
-                      I have replaced the rows with the mean salary for the respective categorical and numerical features.
+   1) Checked for duplicates. There were no duplicates present in the data.               
+   2) Training dataset does not have null values				        
+   3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
+      I have replaced the rows with the mean salary for the respective categorical and numerical features.
 6) Stored the clean data in the csv file Train_Data.
