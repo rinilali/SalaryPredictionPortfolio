@@ -172,6 +172,99 @@ Steps :-
    
 ## Baseline Model
 
+I have created a simple baseline model using the average salary and calculating the Mean Squared Error(MSE) on the basis 
+of two feature variables ***Job Type*** and ***Industry***.
+
+Mean squared error(MSE) with Feature ***JobType*** -  ***963.2***
+Mean squared error(MSE) with Feature ***Industry*** - ***1367.119***
+
+We need to develop models in order to reduce the MSE error less than 360 and make accurate predictions.
+
+## Hypothesize Solution
+
+I have used four different models in order to reduce the mean squared error amd improve accuracy.
+Target feature *Salary* is dependent on multiple *categorical* and *numerical* features.
+
+They are :-
+
+1) Multiple Linear Regression
+2) Random Forest
+3) Gradient Boosting
+4) Polynomial Regression
+
+## Develop Models
+
+In order to devlop models, train and test the data, we need to create features ready for modelling.
+
+   ### Preparing Data
+   
+    1) Have used one hot encoding method to transform categorical values to numeric.
+    2) Standardize the numeric features yearsExperience and milesFromMetropolis using minmaxscaler method.
+    
+   ### Test Models
+   
+    1) Create subset of training data. 
+    2) 80 % of the data is used for training and 20 % is used for testing the model.
+    3) Fit the model
+    4) Obtain the predictions
+    5) Check for accuracy
+    
+   ### Model Evaluation using Visualization
+   
+   Created visualizations using the actual and the predicted values from the training data.
+   
+   ***For Multiple Linear Regression***
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109682184-2d240b80-7b4c-11eb-8611-50778a735927.png)
+   
+   ***For Random Forest***
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109686111-f9e37b80-7b4f-11eb-95af-26993095f627.png)
+   
+   ***For Gradient Boosting***   
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109687098-eb499400-7b50-11eb-8cc5-c6b900e0fad6.png)
+   
+   ***For Polynomial Regression***
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109687671-788ce880-7b51-11eb-9e04-acbae4ca8137.png)
+    
+   ### Observations  
+       
+       The below table shows the errors and accuracy for each model :-
+       
+       ![image](https://user-images.githubusercontent.com/69466709/109688657-8858fc80-7b52-11eb-81f9-7a20432623d3.png)
+       
+   ### Test Models using the 5-fold cross validation
+   
+   The cross validation score used to evaluate the models.
+   
+       The cross validation score for Linear Model: 0.7435
+       The cross validation score for Random Forest Model: 0.7515
+       The cross validation score for Gradient Boost Model: 0.7622
+       The cross validation score for Polynomial Regression Model: 0.7638
+
+## Deploy Models
+
+Selected the model ***Gradient Boosting*** for salary prediction.
+Obtained predictions using the model and stored the file in csv format.
+
+   ### Feature Importance
+   
+   This shows the importance of features in obtaining the prediction using the model
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109696628-41bbd000-7b5b-11eb-951b-8a3402a45bea.png)
+
+
+   
+       
+       
+       
+    
+
+
+
+
 
 
 
