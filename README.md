@@ -95,4 +95,32 @@ Steps :-
 
    
 5) 
-5) 
+
+
+   ![image](https://user-images.githubusercontent.com/69466709/109589126-e0065200-7ad7-11eb-9645-dd0952645489.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589199-f44a4f00-7ad7-11eb-90a1-8637102f5cde.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589258-0c21d300-7ad8-11eb-94b2-ad5af83486e7.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589509-69b61f80-7ad8-11eb-97c1-4f4e2aebbe64.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589373-383d5400-7ad8-11eb-9fea-ade6478e824e.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589565-82263a00-7ad8-11eb-9865-21d457bb8a11.png)   
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589633-9ec27200-7ad8-11eb-9136-d5a2e71b588c.png)
+   
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589698-b699f600-7ad8-11eb-8a8b-e418a4ca9d24.png)
+
+
+
+
+   
+   
+
+
+
+
+
