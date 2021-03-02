@@ -75,3 +75,23 @@ Miles_From_Metropolis - Distance from the Metropolitan city.
    3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
       I have replaced the rows with the mean salary for the respective categorical and numerical features.
 6) Stored the clean data in the csv file Train_Data.
+
+## Exploratory Data Analysis (EDA)
+
+This is the first step in Data Analysis. EDA is used to summarize the main features in the dataset. Also, it is used to understnad the relationships between the predictor and the target variables.
+
+Steps :-
+
+1) We have 1000000 rows and 9 coumns in our dataset.
+2) Using descriptive analysis, we summarize and the categorical and numerical data.
+3) Using value counts function, we analyze the distribution of data.
+4) Used Box Plots to understand the salary distribution across various features. Check for outliers if any.
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109588291-7e91b380-7ad6-11eb-889e-e0305e5c4461.png)
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109588402-ab45cb00-7ad6-11eb-9743-ab6a90df4fec.png)
+
+   ![image](https://user-images.githubusercontent.com/69466709/109588485-cf091100-7ad6-11eb-9f19-919da3ad9e30.png)
+   
+5) 
+5) 
