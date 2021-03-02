@@ -87,11 +87,12 @@ Steps :-
 3) Using value counts function, we analyze the distribution of data.
 4) Used Box Plots to understand the salary distribution across various features. Check for outliers if any.
    
-   ![image](https://user-images.githubusercontent.com/69466709/109588291-7e91b380-7ad6-11eb-889e-e0305e5c4461.png)
+   ![image](https://user-images.githubusercontent.com/69466709/109588954-9158b800-7ad7-11eb-8f64-0ff6ade47550.png)
    
    ![image](https://user-images.githubusercontent.com/69466709/109588402-ab45cb00-7ad6-11eb-9743-ab6a90df4fec.png)
 
-   ![image](https://user-images.githubusercontent.com/69466709/109588485-cf091100-7ad6-11eb-9f19-919da3ad9e30.png)
+   ![image](https://user-images.githubusercontent.com/69466709/109588848-62424680-7ad7-11eb-92a3-7a4931592aac.png)
+
    
 5) 
 5) 
