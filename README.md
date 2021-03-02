@@ -103,46 +103,80 @@ Steps :-
 
 6) Summary of Categorical, Numeric and Target Features :-
 
-   Categorical Variables :- jobType, industry, major, degree
+   **Categorical Variables :- jobType, industry, major, degree**
    
    ![image](https://user-images.githubusercontent.com/69466709/109591358-5f495500-7adb-11eb-857f-2913827af117.png)
    
-   Numerical Features :- yearsExperience and MilesFromMetropolis
+   **Numerical Features :- yearsExperience and MilesFromMetropolis**
    
    ![image](https://user-images.githubusercontent.com/69466709/109591418-74be7f00-7adb-11eb-83ea-14ece125d703.png)
    
-   Target Feature :- Salary
+   **Target Feature :- Salary**
    
    ![image](https://user-images.githubusercontent.com/69466709/109591451-84d65e80-7adb-11eb-8783-da8a4b85e5b0.png)
    
-7) 
-
-
-
-
+7) Using graphical representations to understand how the average salary varies across the various categorical and 
+   numerical features :-
+   
+   **Average Salary By Job Type**
+   
    ![image](https://user-images.githubusercontent.com/69466709/109589126-e0065200-7ad7-11eb-9645-dd0952645489.png)
+   
+   The average salary by is lowest for the jobType "Janitor" and highest for "CEO". 
+   Job Designation "CEO", "CFO" and "CTO" have high salaries as compared to "Janitor".
+   
+   **Average Salary By Industry**
    
    ![image](https://user-images.githubusercontent.com/69466709/109589199-f44a4f00-7ad7-11eb-90a1-8637102f5cde.png)
    
+   "Finance" and "Oil" industry have higher salaries than others.
+   
+   **Average Salary By Degree**
+   
    ![image](https://user-images.githubusercontent.com/69466709/109589258-0c21d300-7ad8-11eb-94b2-ad5af83486e7.png)
+   
+   Jobs with educational background of Masters and Doctoral will have higher salaries as compared to jobs having 
+   No degree 'None' or "High School".
+   
+   **Average Salary By Major**
    
    ![image](https://user-images.githubusercontent.com/69466709/109589509-69b61f80-7ad8-11eb-97c1-4f4e2aebbe64.png)
    
+   Salaries were low for a jobId having no major 'None'.
+   
+   **Average Salary By Years of Experience**
+   
    ![image](https://user-images.githubusercontent.com/69466709/109589373-383d5400-7ad8-11eb-9fea-ade6478e824e.png)
    
-   ![image](https://user-images.githubusercontent.com/69466709/109589565-82263a00-7ad8-11eb-9865-21d457bb8a11.png)   
+    Salary increases linearly with experience
+   
+   **Average Salary By Miles from Metropolitan city**
+   
+   ![image](https://user-images.githubusercontent.com/69466709/109589565-82263a00-7ad8-11eb-9865-21d457bb8a11.png)
+   
+   Salary decreases linearly if we move away from the metropolitan city.
+   
+8) Below is the plot for Salary Distribution :-
    
    ![image](https://user-images.githubusercontent.com/69466709/109589633-9ec27200-7ad8-11eb-9136-d5a2e71b588c.png)
    
+   The most number of jobs have their salaries in the range of 80 to 150.
+   
+9) Correlation by Heatmap :-   
    
    ![image](https://user-images.githubusercontent.com/69466709/109589698-b699f600-7ad8-11eb-8a8b-e418a4ca9d24.png)
+   
+   The most important feature related with salary is job type.
+   There is positive correlation between "salary" and "yearsExperience" and negative correlation between "salary" 
+   and "milesFromMetropolis".
+   
+## Baseline Model
 
 
 
 
    
    
-
 
 
 
