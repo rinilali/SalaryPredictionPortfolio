@@ -1,10 +1,10 @@
 # SalaryPredictionPortfolio
 Salary Prediction Portfolio
 
-This project predicts the salary of the employee based on various categories like Job Type, Industry in which they are employed and Educational qualification of the  employee. It will also take into account the numerical categories like the experience of the employee and the distance from the metropolitan city.
+This project predicts the salary of the employees based on various categories such as Job Type, Industry in which they are employed and Educational qualification of the  employee. It will also take into account the numerical categories like the experience of the employee and the distance from the metropolitan city.
 
 ## Problem Definition
-The goal of this project is to examine the dataset given for various job postings and build a model to predict the salaries in the given test dataset.
+The goal of this project is to examine the dataset for various job postings and build a model to predict the salaries in the given test dataset.
 
 ## Tools Used
 
