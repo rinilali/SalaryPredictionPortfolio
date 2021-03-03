@@ -65,27 +65,27 @@ Miles_From_Metropolis - Distance from the Metropolitan city.
 
 ## Data Loading, Cleaning and Manipulation 
 
-1) Import the required libraries.
-2) Load the data in the Data Frames.
-3) Describe the data and understand the statistics
-4) We have merged the training data set having the target features (train_features.csv) and salaries (train_salaries.csv) in one file.
-5) Cleaning the dataset
+1) Imported the required libraries.
+2) Loaded the data in the Data Frames.
+3) Described and analyzed the data and its statistics
+4) Merged the training data set having the target features (train_features.csv) and salaries (train_salaries.csv) in one file.
+5) Cleaned the dataset
    1) Checked for duplicates. There were no duplicates present in the data.               
    2) Training dataset does not have null values				        
    3) Checked for invalid data in the dataset. There were 5 rows in the dataset containing salaries less than zero. 
-      I have replaced the rows with the mean salary for the respective categorical and numerical features.
+      Replaced the rows with the mean salary for the respective categorical and numerical features.
 6) Stored the clean data in the csv file Train_Data.
 
 ## Exploratory Data Analysis (EDA)
 
-This is the first step in Data Analysis. EDA is used to summarize the main features in the dataset. Also, it is used to understnad the relationships between the predictor and the target variables.
+This is the first step in Data Analysis. EDA is used to summarize the main features in the dataset. Also, it is used to understand the relationships between the predictor and the target variables.
 
 Steps :-
 
-1) We have 1000000 rows and 9 coumns in our dataset.
-2) Using descriptive analysis, we summarize and the categorical and numerical data.
-3) Using value counts function, we analyze the distribution of data.
-4) Used Box Plots to understand the salary distribution across various features. Check for outliers if any.
+1) We have 1000000 rows and 9 columns in our dataset.
+2) Using descriptive analysis, summarized the categorical and numerical data.
+3) Using value counts function, analyzed the distribution of data.
+4) Used Box Plots to understand the salary distribution across various features. Checked for outliers if any.
    
    ![image](https://user-images.githubusercontent.com/69466709/109588954-9158b800-7ad7-11eb-8f64-0ff6ade47550.png)
    
@@ -93,12 +93,14 @@ Steps :-
 
    ![image](https://user-images.githubusercontent.com/69466709/109588848-62424680-7ad7-11eb-92a3-7a4931592aac.png)
    
-   We found outthere were 7117 observations which were above the upper extremes and considered as outliers.
-   After further investigation, we found out that the observations were valid based on the higher level of education, 
-   higher job types and were assosciated with the Finance and oil industry. They were not removed from the Dataset.
+   There were 7117 observations which were above the upper extremes and considered as outliers.
+   After further investigation, it was evident that the observations were valid based on the higher level of education, 
+   financially rewarding job roles and were assosciated with the Finance and oil industry which are considered as profitable
+   sectors. 
+   No action was taken and they were not removed from the Dataset.
 
-5) Using the ANOVA method, I found out the correlation between various groups of categorical features and the target
-   feature salary. Salary is correlated with jobType, industry, degree and major categories. 
+5) Using the ANOVA method, the correlation between various groups of categorical features and the target
+   feature salary were analyzed. Salary is correlated with jobType, industry, degree and major categories. 
    The F-value is large and the p-value close to zero which indicates strong correlation between these groups.
 
 6) Summary of Categorical, Numeric and Target Features :-
@@ -122,8 +124,8 @@ Steps :-
    
    ![image](https://user-images.githubusercontent.com/69466709/109589126-e0065200-7ad7-11eb-9645-dd0952645489.png)
    
-   The average salary by is lowest for the jobType "Janitor" and highest for "CEO". 
-   Job Designation "CEO", "CFO" and "CTO" have high salaries as compared to "Janitor".
+   The average salary is lowest for the jobType "Janitor" and highest for "CEO". 
+   Job Designation "CEO", "CFO" and "CTO" are better paid as compared to "Janitor".
    
    **Average Salary By Industry**
    
@@ -154,7 +156,7 @@ Steps :-
    
    ![image](https://user-images.githubusercontent.com/69466709/109589565-82263a00-7ad8-11eb-9865-21d457bb8a11.png)
    
-   Salary decreases linearly if we move away from the metropolitan city.
+   Salary decreases linearly if we move away from a metropolitan city.
    
 8) Below is the plot for Salary Distribution :-
    
@@ -172,18 +174,18 @@ Steps :-
    
 ## Baseline Model
 
-I have created a simple baseline model using the average salary and calculating the Mean Squared Error(MSE) on the basis 
+Created a simple baseline model using the average salary and calculating the Mean Squared Error(MSE) on the basis 
 of two feature variables ***Job Type*** and ***Industry***.
 
 Mean squared error(MSE) with Feature ***JobType*** -  ***963.2***
 
 Mean squared error(MSE) with Feature ***Industry*** - ***1367.119***
 
-We need to develop models in order to reduce the MSE error less than 360 and make accurate predictions.
+Need to develop models in order to reduce the mean squared error (MSE) less than 360 and make better predictions.
 
 ## Hypothesize Solution
 
-I have used four different models in order to reduce the mean squared error amd improve accuracy.
+Used four different models in order to reduce the MSE amd improve accuracy.
 Target feature *Salary* is dependent on multiple *categorical* and *numerical* features.
 
 They are :-
@@ -200,11 +202,11 @@ In order to devlop models, train and test the data, we need to create features r
    ### Preparing Data
    
     1) Have used one hot encoding method to transform categorical values to numeric.
-    2) Standardize the numeric features yearsExperience and milesFromMetropolis using minmaxscaler method.
+    2) Standardized the numeric features yearsExperience and milesFromMetropolis using minmaxscaler method.
     
    ### Test Models
    
-    1) Create subset of training data. 
+    1) Created subset of training data. 
     2) 80 % of the data is used for training and 20 % is used for testing the model.
     3) Fit the model
     4) Obtain the predictions
@@ -212,7 +214,7 @@ In order to devlop models, train and test the data, we need to create features r
     
    ### Model Evaluation using Visualization
    
-   Created visualizations using the actual and the predicted values from the training data.
+   Created visualizations using the actual and the predicted values from the training/testing data.
    
    ***For Multiple Linear Regression***
    
@@ -238,7 +240,7 @@ In order to devlop models, train and test the data, we need to create features r
        
    ### Test Models using the 5-fold cross validation
    
-   The cross validation score used to evaluate the models.
+   The cross validation score is used to evaluate the models.
    
        The cross validation score for Linear Model: 0.7435
        
