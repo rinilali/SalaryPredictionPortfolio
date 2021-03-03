@@ -260,3 +260,13 @@ Obtained predictions using the model and stored the file in csv format.
    This shows the importance of features in obtaining the prediction using the model
    
    ![image](https://user-images.githubusercontent.com/69466709/109696628-41bbd000-7b5b-11eb-951b-8a3402a45bea.png)
+   
+## References
+
+   * Wikipedia
+   * For Python Libraries - python.org
+   * Article - https://towardsdatascience.com/encoding-categorical-features-21a2651a065c
+   * Article - https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
+   * https://scikit-learn.org/stable/modules/linear_model.html
+   * https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
+   * Other Data Science Projects
