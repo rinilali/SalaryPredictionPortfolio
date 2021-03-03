@@ -267,6 +267,6 @@ Obtained predictions using the model and stored the file in csv format.
    * For Python Libraries - python.org
    * Article - https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
    * https://scikit-learn.org/stable/modules/linear_model.html
-   * https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
-   * https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
+   * Article - https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
+   * Article - https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
    * Other Data Science Projects
