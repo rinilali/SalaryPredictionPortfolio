@@ -236,7 +236,7 @@ In order to devlop models, train and test the data, we need to create features r
        
        The below table shows the errors and accuracy for each model :-
        
-       ![image](https://user-images.githubusercontent.com/69466709/109688657-8858fc80-7b52-11eb-81f9-7a20432623d3.png)
+   ![image](https://user-images.githubusercontent.com/69466709/109732084-77c47880-7b8a-11eb-8029-858e5e12e784.png)
        
    ### Test Models using the 5-fold cross validation
    
